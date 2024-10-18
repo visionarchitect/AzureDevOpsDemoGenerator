@@ -1,0 +1,12 @@
+name: testing
+on: 
+  push:
+    branches: [ main ]
+  pull_request: 
+    branches: [ main ]
+
+jobs:
+  buildg:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo ""
